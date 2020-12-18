@@ -4,25 +4,25 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"0900c6f6-2645-47f6-a289-031e3685cfc6\"\n    },\n    \"m_Name\": \"Video1\",\n    \"m_DefaultReferenceName\": \"Texture2D_C79F60A4\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedTexture\": \"{\\\"texture\\\":{\\\"fileID\\\":8400000,\\\"guid\\\":\\\"28f92a670b633d74ba97902b0b4148a8\\\",\\\"type\\\":2}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true,\n    \"m_DefaultType\": 0\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"0900c6f6-2645-47f6-a289-031e3685cfc6\"\n    },\n    \"m_Name\": \"Video1\",\n    \"m_DefaultReferenceName\": \"Texture2D_C79F60A4\",\n    \"m_OverrideReferenceName\": \"REF_VIDEO1\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedTexture\": \"{\\\"texture\\\":{\\\"fileID\\\":8400000,\\\"guid\\\":\\\"28f92a670b633d74ba97902b0b4148a8\\\",\\\"type\\\":2}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true,\n    \"m_DefaultType\": 0\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"d82122c9-04ed-41fa-86e7-7a2791c486ea\"\n    },\n    \"m_Name\": \"Video2\",\n    \"m_DefaultReferenceName\": \"Texture2D_EAA4A3B9\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedTexture\": \"{\\\"texture\\\":{\\\"fileID\\\":8400000,\\\"guid\\\":\\\"15536340084c8a041b4520805ab5bc14\\\",\\\"type\\\":2}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true,\n    \"m_DefaultType\": 0\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"d82122c9-04ed-41fa-86e7-7a2791c486ea\"\n    },\n    \"m_Name\": \"Video2\",\n    \"m_DefaultReferenceName\": \"Texture2D_EAA4A3B9\",\n    \"m_OverrideReferenceName\": \"REF_VIDEO2\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedTexture\": \"{\\\"texture\\\":{\\\"fileID\\\":8400000,\\\"guid\\\":\\\"15536340084c8a041b4520805ab5bc14\\\",\\\"type\\\":2}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true,\n    \"m_DefaultType\": 0\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"b0fe3972-d997-462c-89e7-bcd54389c262\"\n    },\n    \"m_Name\": \"Opacity\",\n    \"m_DefaultReferenceName\": \"Vector1_DC602237\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 1,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    }\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"b0fe3972-d997-462c-89e7-bcd54389c262\"\n    },\n    \"m_Name\": \"Opacity\",\n    \"m_DefaultReferenceName\": \"Vector1_DC602237\",\n    \"m_OverrideReferenceName\": \"OPACITY_VECTOR\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 1,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    }\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"b453003d-2510-43cb-83e5-b705ff033464\"\n    },\n    \"m_Name\": \"WoodTexture\",\n    \"m_DefaultReferenceName\": \"Texture2D_C7CF3700\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedTexture\": \"{\\\"texture\\\":{\\\"fileID\\\":2800000,\\\"guid\\\":\\\"c5c60e8d06c39b245bb6a5076cb9cbdc\\\",\\\"type\\\":3}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true,\n    \"m_DefaultType\": 0\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"b453003d-2510-43cb-83e5-b705ff033464\"\n    },\n    \"m_Name\": \"WoodTexture\",\n    \"m_DefaultReferenceName\": \"Texture2D_C7CF3700\",\n    \"m_OverrideReferenceName\": \"WOOD_TEXTURE\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"m_SerializedTexture\": \"{\\\"texture\\\":{\\\"fileID\\\":2800000,\\\"guid\\\":\\\"c5c60e8d06c39b245bb6a5076cb9cbdc\\\",\\\"type\\\":3}}\",\n        \"m_Guid\": \"\"\n    },\n    \"m_Modifiable\": true,\n    \"m_DefaultType\": 0\n}"
         }
     ],
     "m_SerializedKeywords": [
@@ -30,13 +30,13 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.ShaderKeyword"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"4aa0c942-693d-4593-8754-18ac6a444e38\"\n    },\n    \"m_Name\": \"BlendingMode\",\n    \"m_DefaultReferenceName\": \"ENUM_E0CE279B\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 1,\n    \"m_Entries\": [\n        {\n            \"id\": 1,\n            \"displayName\": \"Screen\",\n            \"referenceName\": \"SCREEN\"\n        },\n        {\n            \"id\": 2,\n            \"displayName\": \"Difference\",\n            \"referenceName\": \"DIFFERENCE\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Multiply\",\n            \"referenceName\": \"MULTIPLY\"\n        },\n        {\n            \"id\": 4,\n            \"displayName\": \"Overwrite\",\n            \"referenceName\": \"OVERWRITE\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"4aa0c942-693d-4593-8754-18ac6a444e38\"\n    },\n    \"m_Name\": \"BlendingMode\",\n    \"m_DefaultReferenceName\": \"ENUM_E0CE279B\",\n    \"m_OverrideReferenceName\": \"BLENDING_ENUM\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 1,\n    \"m_Entries\": [\n        {\n            \"id\": 1,\n            \"displayName\": \"Screen\",\n            \"referenceName\": \"SCREEN\"\n        },\n        {\n            \"id\": 2,\n            \"displayName\": \"Difference\",\n            \"referenceName\": \"DIFFERENCE\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Multiply\",\n            \"referenceName\": \"MULTIPLY\"\n        },\n        {\n            \"id\": 4,\n            \"displayName\": \"Overwrite\",\n            \"referenceName\": \"OVERWRITE\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.ShaderKeyword"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"0d3ea278-9982-4dea-bcc0-dc8b0f93315f\"\n    },\n    \"m_Name\": \"InvertedStrobe\",\n    \"m_DefaultReferenceName\": \"ENUM_310CD990\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 1,\n    \"m_Entries\": [\n        {\n            \"id\": 2,\n            \"displayName\": \"Activated\",\n            \"referenceName\": \"ACTIVATED\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Normal\",\n            \"referenceName\": \"NORMAL\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"0d3ea278-9982-4dea-bcc0-dc8b0f93315f\"\n    },\n    \"m_Name\": \"InvertedStrobe\",\n    \"m_DefaultReferenceName\": \"ENUM_310CD990\",\n    \"m_OverrideReferenceName\": \"STROBE_ENUM\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 1,\n    \"m_Entries\": [\n        {\n            \"id\": 2,\n            \"displayName\": \"Activated\",\n            \"referenceName\": \"ACTIVATED\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Normal\",\n            \"referenceName\": \"NORMAL\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
         }
     ],
     "m_SerializableNodes": [
@@ -252,42 +252,6 @@
             "typeInfo": {
                 "fullName": "UnityEditor.Graphing.Edge"
             },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"efcbc5d5-3601-4874-840e-1c590ffbbc42\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 1,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"686856a1-4afe-42c5-9b76-263ed0910d0c\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"fce67cbb-7f34-46ef-a55f-8bcecee6b7b9\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 3,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"63046584-1fd1-4dc8-b569-209e0aa9c196\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 4,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 1,\n        \"m_NodeGUIDSerialized\": \"cfa53654-d7a8-4609-8981-46871775ee57\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"fa5c305a-3e12-41e7-b1f8-4c17c502c47e\"\n    }\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 3,\n        \"m_NodeGUIDSerialized\": \"fa5c305a-3e12-41e7-b1f8-4c17c502c47e\"\n    }\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
             "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"e1ffe0e4-253a-4081-a8f4-686141d8bd68\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 1,\n        \"m_NodeGUIDSerialized\": \"da2ef073-61b6-4761-a728-d1ff7af41349\"\n    }\n}"
         },
         {
@@ -319,6 +283,42 @@
                 "fullName": "UnityEditor.Graphing.Edge"
             },
             "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"4df3a776-83b5-4e2a-a771-5db2156541c0\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"868a60b8-06ac-4309-8f2c-c0820fd97af1\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"efcbc5d5-3601-4874-840e-1c590ffbbc42\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 1,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"686856a1-4afe-42c5-9b76-263ed0910d0c\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"fce67cbb-7f34-46ef-a55f-8bcecee6b7b9\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 3,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"63046584-1fd1-4dc8-b569-209e0aa9c196\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 4,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 1,\n        \"m_NodeGUIDSerialized\": \"cfa53654-d7a8-4609-8981-46871775ee57\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"fa5c305a-3e12-41e7-b1f8-4c17c502c47e\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 3,\n        \"m_NodeGUIDSerialized\": \"fa5c305a-3e12-41e7-b1f8-4c17c502c47e\"\n    }\n}"
         }
     ],
     "m_PreviewData": {

@@ -23,7 +23,8 @@ Material:
   m_Name: VideoProjectionMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 42e78cbe8d3902f4991db613bbd9bcf8,
     type: 3}
-  m_ShaderKeywords: ENUM_310CD990_ACTIVATED ENUM_E0CE279B_SCREEN
+  m_ShaderKeywords: BLENDING_ENUM_OVERWRITE ENUM_310CD990_ACTIVATED ENUM_E0CE279B_SCREEN
+    STROBE_ENUM_NORMAL
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -33,6 +34,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - REF_VIDEO1:
+        m_Texture: {fileID: 8400000, guid: 28f92a670b633d74ba97902b0b4148a8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - REF_VIDEO2:
+        m_Texture: {fileID: 8400000, guid: 15536340084c8a041b4520805ab5bc14, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_C79F60A4:
         m_Texture: {fileID: 8400000, guid: 28f92a670b633d74ba97902b0b4148a8, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -43,6 +52,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_EAA4A3B9:
         m_Texture: {fileID: 8400000, guid: 15536340084c8a041b4520805ab5bc14, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - WOOD_TEXTURE:
+        m_Texture: {fileID: 2800000, guid: c5c60e8d06c39b245bb6a5076cb9cbdc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -74,8 +87,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - BLENDING_ENUM: 3
     - ENUM_310CD990: 0
     - ENUM_E0CE279B: 0
+    - OPACITY_VECTOR: 1
+    - STROBE_ENUM: 1
     - Vector1_DC602237: 0.96
     - _AlphaClip: 0
     - _Blend: 0
