@@ -16,7 +16,7 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"b0fe3972-d997-462c-89e7-bcd54389c262\"\n    },\n    \"m_Name\": \"Opacity\",\n    \"m_DefaultReferenceName\": \"Vector1_DC602237\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    }\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"b0fe3972-d997-462c-89e7-bcd54389c262\"\n    },\n    \"m_Name\": \"Opacity\",\n    \"m_DefaultReferenceName\": \"Vector1_DC602237\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": 0.0,\n    \"m_FloatType\": 1,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    }\n}"
         }
     ],
     "m_SerializedKeywords": [
@@ -24,13 +24,13 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.ShaderKeyword"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"4aa0c942-693d-4593-8754-18ac6a444e38\"\n    },\n    \"m_Name\": \"BlendingMode\",\n    \"m_DefaultReferenceName\": \"ENUM_E0CE279B\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 0,\n    \"m_Entries\": [\n        {\n            \"id\": 1,\n            \"displayName\": \"Screen\",\n            \"referenceName\": \"SCREEN\"\n        },\n        {\n            \"id\": 2,\n            \"displayName\": \"Difference\",\n            \"referenceName\": \"DIFFERENCE\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Multiply\",\n            \"referenceName\": \"MULTIPLY\"\n        },\n        {\n            \"id\": 4,\n            \"displayName\": \"Overwrite\",\n            \"referenceName\": \"OVERWRITE\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"4aa0c942-693d-4593-8754-18ac6a444e38\"\n    },\n    \"m_Name\": \"BlendingMode\",\n    \"m_DefaultReferenceName\": \"ENUM_E0CE279B\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 1,\n    \"m_Entries\": [\n        {\n            \"id\": 1,\n            \"displayName\": \"Screen\",\n            \"referenceName\": \"SCREEN\"\n        },\n        {\n            \"id\": 2,\n            \"displayName\": \"Difference\",\n            \"referenceName\": \"DIFFERENCE\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Multiply\",\n            \"referenceName\": \"MULTIPLY\"\n        },\n        {\n            \"id\": 4,\n            \"displayName\": \"Overwrite\",\n            \"referenceName\": \"OVERWRITE\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
         },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.ShaderKeyword"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"0d3ea278-9982-4dea-bcc0-dc8b0f93315f\"\n    },\n    \"m_Name\": \"InvertedStrobe\",\n    \"m_DefaultReferenceName\": \"ENUM_310CD990\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 0,\n    \"m_Entries\": [\n        {\n            \"id\": 2,\n            \"displayName\": \"Activated\",\n            \"referenceName\": \"ACTIVATED\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Normal\",\n            \"referenceName\": \"NORMAL\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"0d3ea278-9982-4dea-bcc0-dc8b0f93315f\"\n    },\n    \"m_Name\": \"InvertedStrobe\",\n    \"m_DefaultReferenceName\": \"ENUM_310CD990\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_KeywordType\": 1,\n    \"m_KeywordDefinition\": 0,\n    \"m_KeywordScope\": 1,\n    \"m_Entries\": [\n        {\n            \"id\": 2,\n            \"displayName\": \"Activated\",\n            \"referenceName\": \"ACTIVATED\"\n        },\n        {\n            \"id\": 3,\n            \"displayName\": \"Normal\",\n            \"referenceName\": \"NORMAL\"\n        }\n    ],\n    \"m_Value\": 0,\n    \"m_IsEditable\": true,\n    \"m_IsExposable\": true\n}"
         }
     ],
     "m_SerializableNodes": [
@@ -210,6 +210,12 @@
             "typeInfo": {
                 "fullName": "UnityEditor.Graphing.Edge"
             },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"fa5c305a-3e12-41e7-b1f8-4c17c502c47e\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"868a60b8-06ac-4309-8f2c-c0820fd97af1\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
             "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"efcbc5d5-3601-4874-840e-1c590ffbbc42\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 1,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    }\n}"
         },
         {
@@ -241,12 +247,6 @@
                 "fullName": "UnityEditor.Graphing.Edge"
             },
             "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"ccbc78dc-d739-422a-9f45-1d10c76f5f06\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 3,\n        \"m_NodeGUIDSerialized\": \"fa5c305a-3e12-41e7-b1f8-4c17c502c47e\"\n    }\n}"
-        },
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"fa5c305a-3e12-41e7-b1f8-4c17c502c47e\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"868a60b8-06ac-4309-8f2c-c0820fd97af1\"\n    }\n}"
         }
     ],
     "m_PreviewData": {
