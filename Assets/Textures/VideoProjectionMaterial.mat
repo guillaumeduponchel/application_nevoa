@@ -88,10 +88,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - BLENDING_ENUM: 0
-    - BLINKING_STROBE_FREQUENCY: 1
+    - BLINKING_STROBE_FREQUENCY: 8
     - ENUM_310CD990: 0
     - ENUM_E0CE279B: 0
-    - OPACITY_VECTOR: 1
+    - OPACITY_VECTOR: 0
     - STROBE_ENUM: 1
     - Vector1_DC602237: 0.96
     - _AlphaClip: 0
