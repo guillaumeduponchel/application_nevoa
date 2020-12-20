@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 591658382}
   - component: {fileID: 591658383}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: OpacitySlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -757,7 +757,7 @@ GameObject:
   - component: {fileID: 700204268}
   - component: {fileID: 700204267}
   m_Layer: 5
-  m_Name: Dropdown
+  m_Name: BlendModeDropdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
