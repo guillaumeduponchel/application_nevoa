@@ -11,12 +11,12 @@ public class OpacitySlider : MonoBehaviour
     
     void Start()
     {
+        VPMaterial.SetFloat("OPACITY_VECTOR", 0);
         opacitySliderObject.onValueChanged.AddListener (delegate {ValueChangeCheck ();});
     }
 
     public void ValueChangeCheck()
 	{
-		Debug.Log (opacitySliderObject.value);
         VPMaterial.SetFloat("OPACITY_VECTOR", opacitySliderObject.value);
 	}
 }
