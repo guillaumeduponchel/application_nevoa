@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CameraController : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class CameraController : MonoBehaviour
     private Quaternion desiredRotation;
     private Quaternion rotation;
     private Vector3 position;
+
+    private bool camBlocked;
     
     void Start() { Init(); }
     void OnEnable() { Init(); }
@@ -53,6 +56,9 @@ public class CameraController : MonoBehaviour
     */
     void LateUpdate()
     {
+        if(EventSystem.current.IsPointerOverGameObject())
+            return;
+
         // If Control and Alt and Middle button? ZOOM!
         if (Input.GetMouseButton(2) && Input.mouseScrollDelta.y != 0 )
         {
