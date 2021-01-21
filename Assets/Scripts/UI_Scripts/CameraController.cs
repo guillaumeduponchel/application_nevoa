@@ -15,10 +15,14 @@ public class CameraController : MonoBehaviour
     private float xDeg = 0.0f;
     private float yDeg = 0.0f;
 
-    private bool camBlocked;
+    private bool camBlocked = false;
     
     void Start() { Init(); }
     void OnEnable() { Init(); }
+
+    public void FreeCam() {camBlocked = true;}
+
+    public void LockCam() {camBlocked = false;}
     
     public void Init()
     {
@@ -39,7 +43,7 @@ public class CameraController : MonoBehaviour
     */
     void LateUpdate()
     {
-        if(EventSystem.current.IsPointerOverGameObject())
+        if(EventSystem.current.IsPointerOverGameObject() || camBlocked)
             return;
 
         // If Control and Alt and Middle button? ZOOM!
