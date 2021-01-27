@@ -12,6 +12,8 @@ public class SceneInstanciation
     public RenderTexture m_renderTexture1;
     public RenderTexture m_renderTexture2;
 
+    private string[] tabNameVid;
+
     // Camera related objects
     public GameObject m_camera;
 
@@ -41,6 +43,8 @@ public class SceneInstanciation
         int width2 = 256;
         int height2= 256;
 
+        tabNameVid = new string[] {"Assets/Videos/SimpleTriangle/heavym_1.mp4", "Assets/Videos/SimpleTriangle/heavym_1.mp4"};
+
         m_renderTexture1 = new RenderTexture(width1, height1, 16, RenderTextureFormat.ARGB32);
         m_renderTexture1.Create();
 
@@ -56,6 +60,11 @@ public class SceneInstanciation
 
         m_player1.isLooping = true;
         m_player2.isLooping = true;
+
+        m_player1.url = tabNameVid[0];
+        m_player2.url = tabNameVid[1];
+
+
     }
 
     void instanciateCamera(bool isCamVR)
